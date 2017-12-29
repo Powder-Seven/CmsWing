@@ -47,6 +47,6 @@ Thumbs.db
 
 /.vscode/
 /package-lock.json
-
+/src/config/model.js
 # private/pingpp/cmswing_rsa_private_key.pem
 # private/pingpp/pingpp_rsa_public_key.pem
