@@ -3,7 +3,8 @@
   "description": "基于ThinkJS(Node.js MVC)和MySQL的功能强大的电子商务平台及CMS建站系统",
   "version": "1.2.9",
   "scripts": {
-    "start": "node development.js",
+    "dev": "node development.js",
+    "start": "pm2 startOrReload pm2.json",
     "lint": "eslint src/",
     "lint-fix": "eslint --fix src/"
   },
