@@ -1,5 +1,5 @@
 const path = require('path');
-const isDev = think.env === 'development';
+const isDev = think.env === 'production';
 const wechat = require('think-wechat');
 module.exports = [
   {
